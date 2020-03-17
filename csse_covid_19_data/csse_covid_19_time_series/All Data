@@ -1,3 +1,9 @@
 #This file is to merge all the time series data on COVID-19.
 ##Code is to reshape the data to make it longer
 ##Join the data so that we have a column for confirmed, recovered, and deaths for each location and day of reporting
+
+import pandas as pd
+
+
+df = pd.read_csv('')
+pd.d.melt(df, id_vars=['A'], value_vars=['B'],var_name='myVarname', value_name='myValname')
